@@ -15,14 +15,25 @@ python3 -m http.server 8080
 
 ## Building the Getty database
 
-Getty collaboration boards require sign-in; export your board assets into `getty_manifest.json` (see `getty_manifest.example.json`), then:
+### Spreadsheet (metadata + image links) — recommended
+
+Keep full metadata without mass-downloading files:
+
+1. Run `scripts/export_getty_board.js` in your browser console on the Getty board, **or**
+2. Fill in `getty_portraits.csv` from `getty_portraits.template.csv` (Excel / Google Sheets)
 
 ```bash
 pip install -r requirements.txt
-python3 build_getty_database.py --fresh
+python3 build_from_spreadsheet.py --fresh
 ```
 
-This scans each image, classifies face shape, and writes `art_database.json`.
+Each row is fetched from `imageUrl`, face-scanned, saved to `assets/`, and written to `art_database.json`.
+
+See `getty_images/SPREADSHEET.md` for details.
+
+### Local file download
+
+Save board previews into `getty_images/`, then `python3 scan_getty_downloads.py --fresh`.
 
 ## Partners
 

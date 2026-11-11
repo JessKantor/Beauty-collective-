@@ -3,6 +3,12 @@ __pycache__/
 *.pyc
 .DS_Store
 getty_manifest.json
+getty_portraits.csv
+!getty_portraits.template.csv
+getty_images/*
+!getty_images/README.md
+!getty_images/SPREADSHEET.md
+!getty_images/metadata.example.json
 build_*.log
 venv/
 .env

@@ -1,1 +1,1622 @@
-[]
+[
+  {
+    "id": "2169348296",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2169348296.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2169348296",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.29,
+    "faceMetrics": {
+      "length_to_width": 1.137,
+      "jaw_to_forehead": 1.582,
+      "cheek_to_jaw": 1.261,
+      "jaw_angle_deg": 136.11
+    }
+  },
+  {
+    "id": "2227736225",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2227736225.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2227736225",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.286,
+    "faceMetrics": {
+      "length_to_width": 1.179,
+      "jaw_to_forehead": 1.688,
+      "cheek_to_jaw": 1.228,
+      "jaw_angle_deg": 132.49
+    }
+  },
+  {
+    "id": "2250391672",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2250391672.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2250391672",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.303,
+    "faceMetrics": {
+      "length_to_width": 1.188,
+      "jaw_to_forehead": 1.67,
+      "cheek_to_jaw": 1.219,
+      "jaw_angle_deg": 132.426
+    }
+  },
+  {
+    "id": "2285970654",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2285970654.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2285970654",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.307,
+    "faceMetrics": {
+      "length_to_width": 1.127,
+      "jaw_to_forehead": 1.414,
+      "cheek_to_jaw": 1.296,
+      "jaw_angle_deg": 138.816
+    }
+  },
+  {
+    "id": "2255899421",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2255899421.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2255899421",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.363,
+    "faceMetrics": {
+      "length_to_width": 1.087,
+      "jaw_to_forehead": 1.552,
+      "cheek_to_jaw": 1.251,
+      "jaw_angle_deg": 137.842
+    }
+  },
+  {
+    "id": "2300762379",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2300762379.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2300762379",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.293,
+    "faceMetrics": {
+      "length_to_width": 1.099,
+      "jaw_to_forehead": 1.778,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 127.476
+    }
+  },
+  {
+    "id": "2214024118",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2214024118.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2214024118",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.293,
+    "faceMetrics": {
+      "length_to_width": 1.221,
+      "jaw_to_forehead": 1.61,
+      "cheek_to_jaw": 1.25,
+      "jaw_angle_deg": 139.703
+    }
+  },
+  {
+    "id": "2213772860",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2213772860.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2213772860",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.264,
+    "faceMetrics": {
+      "length_to_width": 1.127,
+      "jaw_to_forehead": 1.78,
+      "cheek_to_jaw": 1.211,
+      "jaw_angle_deg": 132.155
+    }
+  },
+  {
+    "id": "2197381891",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2197381891.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2197381891",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.347,
+    "faceMetrics": {
+      "length_to_width": 1.242,
+      "jaw_to_forehead": 1.797,
+      "cheek_to_jaw": 1.203,
+      "jaw_angle_deg": 129.691
+    }
+  },
+  {
+    "id": "2075095305",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2075095305.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2075095305",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.246,
+    "faceMetrics": {
+      "length_to_width": 1.181,
+      "jaw_to_forehead": 1.625,
+      "cheek_to_jaw": 1.253,
+      "jaw_angle_deg": 140.194
+    }
+  },
+  {
+    "id": "1471177983",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1471177983.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1471177983",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.247,
+    "faceMetrics": {
+      "length_to_width": 1.184,
+      "jaw_to_forehead": 1.542,
+      "cheek_to_jaw": 1.255,
+      "jaw_angle_deg": 140.612
+    }
+  },
+  {
+    "id": "1406992338",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1406992338.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1406992338",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.34,
+    "faceMetrics": {
+      "length_to_width": 1.115,
+      "jaw_to_forehead": 1.409,
+      "cheek_to_jaw": 1.293,
+      "jaw_angle_deg": 144.538
+    }
+  },
+  {
+    "id": "1344079045",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1344079045.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1344079045",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.305,
+    "faceMetrics": {
+      "length_to_width": 1.174,
+      "jaw_to_forehead": 1.69,
+      "cheek_to_jaw": 1.221,
+      "jaw_angle_deg": 128.906
+    }
+  },
+  {
+    "id": "1178005547",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1178005547.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1178005547",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.354,
+    "faceMetrics": {
+      "length_to_width": 1.222,
+      "jaw_to_forehead": 1.702,
+      "cheek_to_jaw": 1.189,
+      "jaw_angle_deg": 136.182
+    }
+  },
+  {
+    "id": "2301433652",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2301433652.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2301433652",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.346,
+    "faceMetrics": {
+      "length_to_width": 1.266,
+      "jaw_to_forehead": 1.698,
+      "cheek_to_jaw": 1.245,
+      "jaw_angle_deg": 143.137
+    }
+  },
+  {
+    "id": "2075134210",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2075134210.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2075134210",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.298,
+    "faceMetrics": {
+      "length_to_width": 1.112,
+      "jaw_to_forehead": 1.783,
+      "cheek_to_jaw": 1.21,
+      "jaw_angle_deg": 126.417
+    }
+  },
+  {
+    "id": "1969787352",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1969787352.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1969787352",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.269,
+    "faceMetrics": {
+      "length_to_width": 1.123,
+      "jaw_to_forehead": 1.696,
+      "cheek_to_jaw": 1.212,
+      "jaw_angle_deg": 130.134
+    }
+  },
+  {
+    "id": "2299409315",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2299409315.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2299409315",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.317,
+    "faceMetrics": {
+      "length_to_width": 1.169,
+      "jaw_to_forehead": 1.742,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 129.869
+    }
+  },
+  {
+    "id": "2267138186",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2267138186.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2267138186",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.256,
+    "faceMetrics": {
+      "length_to_width": 1.101,
+      "jaw_to_forehead": 1.669,
+      "cheek_to_jaw": 1.23,
+      "jaw_angle_deg": 127.904
+    }
+  },
+  {
+    "id": "2283816247",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2283816247.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2283816247",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.326,
+    "faceMetrics": {
+      "length_to_width": 1.077,
+      "jaw_to_forehead": 1.671,
+      "cheek_to_jaw": 1.23,
+      "jaw_angle_deg": 133.555
+    }
+  },
+  {
+    "id": "2301581548",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2301581548.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2301581548",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.363,
+    "faceMetrics": {
+      "length_to_width": 1.23,
+      "jaw_to_forehead": 1.616,
+      "cheek_to_jaw": 1.197,
+      "jaw_angle_deg": 140.521
+    }
+  },
+  {
+    "id": "2225027732",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2225027732.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2225027732",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.301,
+    "faceMetrics": {
+      "length_to_width": 1.242,
+      "jaw_to_forehead": 1.438,
+      "cheek_to_jaw": 1.285,
+      "jaw_angle_deg": 137.994
+    }
+  },
+  {
+    "id": "88426825",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/88426825.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/88426825",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.329,
+    "faceMetrics": {
+      "length_to_width": 1.251,
+      "jaw_to_forehead": 1.469,
+      "cheek_to_jaw": 1.305,
+      "jaw_angle_deg": 144.413
+    }
+  },
+  {
+    "id": "184661940",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/184661940.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/184661940",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.315,
+    "faceMetrics": {
+      "length_to_width": 1.244,
+      "jaw_to_forehead": 1.491,
+      "cheek_to_jaw": 1.263,
+      "jaw_angle_deg": 141.314
+    }
+  },
+  {
+    "id": "179958244",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/179958244.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/179958244",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.249,
+    "faceMetrics": {
+      "length_to_width": 1.193,
+      "jaw_to_forehead": 1.429,
+      "cheek_to_jaw": 1.324,
+      "jaw_angle_deg": 141.296
+    }
+  },
+  {
+    "id": "179162766",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/179162766.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/179162766",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.25,
+    "faceMetrics": {
+      "length_to_width": 1.194,
+      "jaw_to_forehead": 1.504,
+      "cheek_to_jaw": 1.271,
+      "jaw_angle_deg": 136.788
+    }
+  },
+  {
+    "id": "3249013",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/3249013.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/3249013",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.355,
+    "faceMetrics": {
+      "length_to_width": 1.096,
+      "jaw_to_forehead": 1.6,
+      "cheek_to_jaw": 1.253,
+      "jaw_angle_deg": 139.172
+    }
+  },
+  {
+    "id": "80006704",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/80006704.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/80006704",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.256,
+    "faceMetrics": {
+      "length_to_width": 1.174,
+      "jaw_to_forehead": 1.512,
+      "cheek_to_jaw": 1.27,
+      "jaw_angle_deg": 136.012
+    }
+  },
+  {
+    "id": "2317481",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2317481.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2317481",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.247,
+    "faceMetrics": {
+      "length_to_width": 1.183,
+      "jaw_to_forehead": 1.555,
+      "cheek_to_jaw": 1.278,
+      "jaw_angle_deg": 139.014
+    }
+  },
+  {
+    "id": "102745813",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/102745813.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/102745813",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.267,
+    "faceMetrics": {
+      "length_to_width": 1.164,
+      "jaw_to_forehead": 1.463,
+      "cheek_to_jaw": 1.3,
+      "jaw_angle_deg": 139.173
+    }
+  },
+  {
+    "id": "83815632",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/83815632.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/83815632",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 1.185,
+      "jaw_to_forehead": 1.702,
+      "cheek_to_jaw": 1.231,
+      "jaw_angle_deg": 133.23
+    }
+  },
+  {
+    "id": "82740198",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/82740198.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/82740198",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.29,
+    "faceMetrics": {
+      "length_to_width": 1.147,
+      "jaw_to_forehead": 1.773,
+      "cheek_to_jaw": 1.198,
+      "jaw_angle_deg": 132.754
+    }
+  },
+  {
+    "id": "143818184",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/143818184.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/143818184",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.272,
+    "faceMetrics": {
+      "length_to_width": 1.161,
+      "jaw_to_forehead": 1.408,
+      "cheek_to_jaw": 1.278,
+      "jaw_angle_deg": 142.867
+    }
+  },
+  {
+    "id": "103404927",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/103404927.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/103404927",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.242,
+    "faceMetrics": {
+      "length_to_width": 1.186,
+      "jaw_to_forehead": 1.388,
+      "cheek_to_jaw": 1.301,
+      "jaw_angle_deg": 141.658
+    }
+  },
+  {
+    "id": "103408734",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/103408734.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/103408734",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.303,
+    "faceMetrics": {
+      "length_to_width": 1.139,
+      "jaw_to_forehead": 1.446,
+      "cheek_to_jaw": 1.281,
+      "jaw_angle_deg": 142.313
+    }
+  },
+  {
+    "id": "491403936",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/491403936.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/491403936",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.287,
+    "faceMetrics": {
+      "length_to_width": 1.207,
+      "jaw_to_forehead": 1.499,
+      "cheek_to_jaw": 1.242,
+      "jaw_angle_deg": 137.449
+    }
+  },
+  {
+    "id": "463769984",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/463769984.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/463769984",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.283,
+    "faceMetrics": {
+      "length_to_width": 1.09,
+      "jaw_to_forehead": 1.633,
+      "cheek_to_jaw": 1.24,
+      "jaw_angle_deg": 124.584
+    }
+  },
+  {
+    "id": "490930296",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/490930296.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/490930296",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.321,
+    "faceMetrics": {
+      "length_to_width": 1.246,
+      "jaw_to_forehead": 1.455,
+      "cheek_to_jaw": 1.272,
+      "jaw_angle_deg": 142.295
+    }
+  },
+  {
+    "id": "114200872",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/114200872.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/114200872",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.292,
+    "faceMetrics": {
+      "length_to_width": 1.205,
+      "jaw_to_forehead": 1.613,
+      "cheek_to_jaw": 1.238,
+      "jaw_angle_deg": 133.649
+    }
+  },
+  {
+    "id": "2206827695",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2206827695.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2206827695",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.299,
+    "faceMetrics": {
+      "length_to_width": 1.237,
+      "jaw_to_forehead": 1.664,
+      "cheek_to_jaw": 1.26,
+      "jaw_angle_deg": 140.194
+    }
+  },
+  {
+    "id": "529775372",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/529775372.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/529775372",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.719,
+    "faceMetrics": {
+      "length_to_width": 0.957,
+      "jaw_to_forehead": 1.334,
+      "cheek_to_jaw": 1.329,
+      "jaw_angle_deg": 145.336
+    }
+  },
+  {
+    "id": "453674943",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/453674943.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/453674943",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.263,
+    "faceMetrics": {
+      "length_to_width": 1.197,
+      "jaw_to_forehead": 1.538,
+      "cheek_to_jaw": 1.271,
+      "jaw_angle_deg": 142.724
+    }
+  },
+  {
+    "id": "74730610",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/74730610.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/74730610",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.298,
+    "faceMetrics": {
+      "length_to_width": 1.157,
+      "jaw_to_forehead": 1.709,
+      "cheek_to_jaw": 1.213,
+      "jaw_angle_deg": 129.318
+    }
+  },
+  {
+    "id": "51006060",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/51006060.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/51006060",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.265,
+    "faceMetrics": {
+      "length_to_width": 1.162,
+      "jaw_to_forehead": 1.6,
+      "cheek_to_jaw": 1.224,
+      "jaw_angle_deg": 135.834
+    }
+  },
+  {
+    "id": "93449667",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/93449667.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/93449667",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.333,
+    "faceMetrics": {
+      "length_to_width": 1.235,
+      "jaw_to_forehead": 1.664,
+      "cheek_to_jaw": 1.202,
+      "jaw_angle_deg": 135.408
+    }
+  },
+  {
+    "id": "93449657",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/93449657.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/93449657",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.307,
+    "faceMetrics": {
+      "length_to_width": 1.269,
+      "jaw_to_forehead": 1.644,
+      "cheek_to_jaw": 1.208,
+      "jaw_angle_deg": 134.978
+    }
+  },
+  {
+    "id": "86099837",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/86099837.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/86099837",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.288,
+    "faceMetrics": {
+      "length_to_width": 1.149,
+      "jaw_to_forehead": 1.566,
+      "cheek_to_jaw": 1.21,
+      "jaw_angle_deg": 130.668
+    }
+  },
+  {
+    "id": "86105194",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/86105194.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/86105194",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.316,
+    "faceMetrics": {
+      "length_to_width": 1.125,
+      "jaw_to_forehead": 1.424,
+      "cheek_to_jaw": 1.314,
+      "jaw_angle_deg": 140.827
+    }
+  },
+  {
+    "id": "640469377",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/640469377.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/640469377",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.383,
+    "faceMetrics": {
+      "length_to_width": 1.274,
+      "jaw_to_forehead": 1.423,
+      "cheek_to_jaw": 1.292,
+      "jaw_angle_deg": 145.654
+    }
+  },
+  {
+    "id": "2001078",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/2001078.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/2001078",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.32,
+    "faceMetrics": {
+      "length_to_width": 1.263,
+      "jaw_to_forehead": 1.607,
+      "cheek_to_jaw": 1.204,
+      "jaw_angle_deg": 136.577
+    }
+  },
+  {
+    "id": "76425528",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/76425528.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/76425528",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.355,
+    "faceMetrics": {
+      "length_to_width": 1.305,
+      "jaw_to_forehead": 1.5,
+      "cheek_to_jaw": 1.243,
+      "jaw_angle_deg": 139.626
+    }
+  },
+  {
+    "id": "500942116",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/500942116.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/500942116",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.301,
+    "faceMetrics": {
+      "length_to_width": 1.203,
+      "jaw_to_forehead": 1.369,
+      "cheek_to_jaw": 1.283,
+      "jaw_angle_deg": 144.822
+    }
+  },
+  {
+    "id": "526250890",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/526250890.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/526250890",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.267,
+    "faceMetrics": {
+      "length_to_width": 1.104,
+      "jaw_to_forehead": 1.604,
+      "cheek_to_jaw": 1.194,
+      "jaw_angle_deg": 132.817
+    }
+  },
+  {
+    "id": "772227035",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/772227035.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/772227035",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.27,
+    "faceMetrics": {
+      "length_to_width": 1.157,
+      "jaw_to_forehead": 1.681,
+      "cheek_to_jaw": 1.243,
+      "jaw_angle_deg": 128.982
+    }
+  },
+  {
+    "id": "681573363",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/681573363.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/681573363",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.252,
+    "faceMetrics": {
+      "length_to_width": 1.168,
+      "jaw_to_forehead": 1.56,
+      "cheek_to_jaw": 1.24,
+      "jaw_angle_deg": 136.18
+    }
+  },
+  {
+    "id": "583868500",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/583868500.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/583868500",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.256,
+    "faceMetrics": {
+      "length_to_width": 1.2,
+      "jaw_to_forehead": 1.492,
+      "cheek_to_jaw": 1.272,
+      "jaw_angle_deg": 136.789
+    }
+  },
+  {
+    "id": "563944147",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/563944147.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/563944147",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.284,
+    "faceMetrics": {
+      "length_to_width": 1.235,
+      "jaw_to_forehead": 1.593,
+      "cheek_to_jaw": 1.26,
+      "jaw_angle_deg": 135.093
+    }
+  },
+  {
+    "id": "940189386",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/940189386.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/940189386",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.287,
+    "faceMetrics": {
+      "length_to_width": 1.159,
+      "jaw_to_forehead": 1.677,
+      "cheek_to_jaw": 1.23,
+      "jaw_angle_deg": 128.727
+    }
+  },
+  {
+    "id": "1262636725",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1262636725.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1262636725",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.287,
+    "faceMetrics": {
+      "length_to_width": 1.138,
+      "jaw_to_forehead": 1.489,
+      "cheek_to_jaw": 1.256,
+      "jaw_angle_deg": 135.67
+    }
+  },
+  {
+    "id": "1220367846",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1220367846.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1220367846",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.288,
+    "faceMetrics": {
+      "length_to_width": 1.178,
+      "jaw_to_forehead": 1.705,
+      "cheek_to_jaw": 1.219,
+      "jaw_angle_deg": 137.941
+    }
+  },
+  {
+    "id": "515411660",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/515411660.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/515411660",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.27,
+    "faceMetrics": {
+      "length_to_width": 1.161,
+      "jaw_to_forehead": 1.621,
+      "cheek_to_jaw": 1.28,
+      "jaw_angle_deg": 138.1
+    }
+  },
+  {
+    "id": "1356560657",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1356560657.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1356560657",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "oval",
+    "shapeConfidence": 0.383,
+    "faceMetrics": {
+      "length_to_width": 1.29,
+      "jaw_to_forehead": 1.48,
+      "cheek_to_jaw": 1.276,
+      "jaw_angle_deg": 141.507
+    }
+  },
+  {
+    "id": "635755635",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/635755635.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/635755635",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.296,
+    "faceMetrics": {
+      "length_to_width": 1.201,
+      "jaw_to_forehead": 1.561,
+      "cheek_to_jaw": 1.234,
+      "jaw_angle_deg": 132.786
+    }
+  },
+  {
+    "id": "635757045",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/635757045.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/635757045",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "square",
+    "shapeConfidence": 0.36,
+    "faceMetrics": {
+      "length_to_width": 1.12,
+      "jaw_to_forehead": 1.35,
+      "cheek_to_jaw": 1.317,
+      "jaw_angle_deg": 146.795
+    }
+  },
+  {
+    "id": "1262634818",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1262634818.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1262634818",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.278,
+    "faceMetrics": {
+      "length_to_width": 1.204,
+      "jaw_to_forehead": 1.44,
+      "cheek_to_jaw": 1.28,
+      "jaw_angle_deg": 143.158
+    }
+  },
+  {
+    "id": "3423198",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/3423198.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/3423198",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.271,
+    "faceMetrics": {
+      "length_to_width": 1.149,
+      "jaw_to_forehead": 1.555,
+      "cheek_to_jaw": 1.237,
+      "jaw_angle_deg": 138.485
+    }
+  },
+  {
+    "id": "1661554015",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1661554015.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1661554015",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.263,
+    "faceMetrics": {
+      "length_to_width": 1.195,
+      "jaw_to_forehead": 1.689,
+      "cheek_to_jaw": 1.251,
+      "jaw_angle_deg": 138.277
+    }
+  },
+  {
+    "id": "1502770510",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1502770510.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1502770510",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.308,
+    "faceMetrics": {
+      "length_to_width": 1.27,
+      "jaw_to_forehead": 1.547,
+      "cheek_to_jaw": 1.21,
+      "jaw_angle_deg": 136.32
+    }
+  },
+  {
+    "id": "98405771",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/98405771.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/98405771",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.505,
+    "faceMetrics": {
+      "length_to_width": 0.991,
+      "jaw_to_forehead": 1.511,
+      "cheek_to_jaw": 1.273,
+      "jaw_angle_deg": 137.692
+    }
+  },
+  {
+    "id": "3065348",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/3065348.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/3065348",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.272,
+    "faceMetrics": {
+      "length_to_width": 1.153,
+      "jaw_to_forehead": 1.479,
+      "cheek_to_jaw": 1.247,
+      "jaw_angle_deg": 138.166
+    }
+  },
+  {
+    "id": "513346326",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/513346326.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/513346326",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.291,
+    "faceMetrics": {
+      "length_to_width": 1.183,
+      "jaw_to_forehead": 1.559,
+      "cheek_to_jaw": 1.219,
+      "jaw_angle_deg": 134.495
+    }
+  },
+  {
+    "id": "1937338592",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1937338592.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1937338592",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.299,
+    "faceMetrics": {
+      "length_to_width": 1.122,
+      "jaw_to_forehead": 1.751,
+      "cheek_to_jaw": 1.133,
+      "jaw_angle_deg": 132.761
+    }
+  },
+  {
+    "id": "513346330",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/513346330.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/513346330",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.287,
+    "faceMetrics": {
+      "length_to_width": 1.167,
+      "jaw_to_forehead": 1.631,
+      "cheek_to_jaw": 1.212,
+      "jaw_angle_deg": 133.911
+    }
+  },
+  {
+    "id": "526246680",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/526246680.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/526246680",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.359,
+    "faceMetrics": {
+      "length_to_width": 1.232,
+      "jaw_to_forehead": 1.629,
+      "cheek_to_jaw": 1.177,
+      "jaw_angle_deg": 133.915
+    }
+  },
+  {
+    "id": "514695184",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/514695184.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/514695184",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.273,
+    "faceMetrics": {
+      "length_to_width": 1.212,
+      "jaw_to_forehead": 1.419,
+      "cheek_to_jaw": 1.317,
+      "jaw_angle_deg": 141.473
+    }
+  },
+  {
+    "id": "613504630",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/613504630.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/613504630",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.296,
+    "faceMetrics": {
+      "length_to_width": 1.184,
+      "jaw_to_forehead": 1.667,
+      "cheek_to_jaw": 1.228,
+      "jaw_angle_deg": 130.928
+    }
+  },
+  {
+    "id": "512518254",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/512518254.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/512518254",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.325,
+    "faceMetrics": {
+      "length_to_width": 1.228,
+      "jaw_to_forehead": 1.584,
+      "cheek_to_jaw": 1.211,
+      "jaw_angle_deg": 134.967
+    }
+  },
+  {
+    "id": "526105388",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/526105388.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/526105388",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.301,
+    "faceMetrics": {
+      "length_to_width": 1.127,
+      "jaw_to_forehead": 1.503,
+      "cheek_to_jaw": 1.277,
+      "jaw_angle_deg": 136.405
+    }
+  },
+  {
+    "id": "658540999",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/658540999.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/658540999",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "round",
+    "shapeConfidence": 0.244,
+    "faceMetrics": {
+      "length_to_width": 1.185,
+      "jaw_to_forehead": 1.455,
+      "cheek_to_jaw": 1.312,
+      "jaw_angle_deg": 140.663
+    }
+  },
+  {
+    "id": "563942495",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/563942495.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/563942495",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.298,
+    "faceMetrics": {
+      "length_to_width": 1.167,
+      "jaw_to_forehead": 1.686,
+      "cheek_to_jaw": 1.221,
+      "jaw_angle_deg": 129.332
+    }
+  },
+  {
+    "id": "1269341329",
+    "title": "",
+    "artist": "",
+    "date": "",
+    "collection": "Getty Board",
+    "culture": "",
+    "imageUrl": "assets/1269341329.jpg",
+    "sourceUrl": "https://www.gettyimages.com/detail/1269341329",
+    "partner": "Getty Images",
+    "boardUrl": "https://www.gettyimages.com/collaboration/boards/eAGAgBoofEe_WRznFnIkxw",
+    "faceShape": "heart",
+    "shapeConfidence": 0.332,
+    "faceMetrics": {
+      "length_to_width": 1.253,
+      "jaw_to_forehead": 1.53,
+      "cheek_to_jaw": 1.251,
+      "jaw_angle_deg": 145.472
+    }
+  }
+]
