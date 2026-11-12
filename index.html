@@ -307,6 +307,26 @@
       margin-top: 0.15rem;
     }
 
+    .art-card-image a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .art-link {
+      margin-top: auto;
+      padding-top: 0.65rem;
+      font-size: 0.62rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .art-link:hover { color: var(--text); }
+
     .results-footer {
       text-align: center;
       margin-top: 3rem;
@@ -915,14 +935,24 @@
 
           const displayTitle = art.title || art.artist || `Portrait ${art.id}`;
           const meta = [art.artist && art.title ? art.artist : "", art.date].filter(Boolean).join(" · ");
+          const gettyUrl =
+            art.sourceUrl ||
+            (art.id ? `https://www.gettyimages.com/detail/${art.id}` : "");
 
           card.innerHTML = `
             <div class="art-card-image">
+              ${gettyUrl
+                ? `<a href="${escapeHtml(gettyUrl)}" target="_blank" rel="noopener noreferrer" aria-label="View on Getty Images">`
+                : ""}
               <img src="${escapeHtml(art.imageUrl)}" alt="${escapeHtml(displayTitle)}" loading="lazy">
+              ${gettyUrl ? "</a>" : ""}
             </div>
             <div class="art-card-body">
               <h4 class="art-title">${escapeHtml(displayTitle)}</h4>
               ${meta ? `<p class="art-meta">${escapeHtml(meta)}</p>` : ""}
+              ${gettyUrl
+                ? `<a class="art-link" href="${escapeHtml(gettyUrl)}" target="_blank" rel="noopener noreferrer">View on Getty &rarr;</a>`
+                : ""}
             </div>
           `;
           gallery.appendChild(card);
