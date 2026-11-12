@@ -443,6 +443,8 @@
     const LANDMARK_RIGHT_TEMPLE = 297;
     const LANDMARK_LEFT_JAW = 172;
     const LANDMARK_RIGHT_JAW = 397;
+    const LANDMARK_JAW_WIDTH_LEFT = 150;
+    const LANDMARK_JAW_WIDTH_RIGHT = 379;
 
     let artDatabase = [];
     let faceMesh = null;
@@ -508,18 +510,23 @@
     const FACE_SHAPES = ["oval", "round", "square", "heart", "oblong"];
 
     const SHAPE_IDEALS = {
-      round: { length_to_width: 1.02, jaw_to_forehead: 0.96, cheek_to_jaw: 1.00, jaw_angle_deg: 135 },
-      oval: { length_to_width: 1.28, jaw_to_forehead: 0.88, cheek_to_jaw: 1.06, jaw_angle_deg: 128 },
-      square: { length_to_width: 1.12, jaw_to_forehead: 0.97, cheek_to_jaw: 1.00, jaw_angle_deg: 112 },
-      heart: { length_to_width: 1.22, jaw_to_forehead: 0.74, cheek_to_jaw: 1.14, jaw_angle_deg: 124 },
-      oblong: { length_to_width: 1.58, jaw_to_forehead: 0.94, cheek_to_jaw: 1.02, jaw_angle_deg: 130 }
+      round: { length_to_width: 1.02, jaw_to_forehead: 1.05, cheek_to_jaw: 1.78, jaw_angle_deg: 135 },
+      oval: { length_to_width: 1.28, jaw_to_forehead: 1.02, cheek_to_jaw: 1.72, jaw_angle_deg: 128 },
+      square: { length_to_width: 1.10, jaw_to_forehead: 0.95, cheek_to_jaw: 1.88, jaw_angle_deg: 130 },
+      heart: { length_to_width: 1.18, jaw_to_forehead: 1.12, cheek_to_jaw: 1.68, jaw_angle_deg: 132 },
+      oblong: { length_to_width: 1.58, jaw_to_forehead: 1.04, cheek_to_jaw: 1.75, jaw_angle_deg: 130 }
     };
 
     const SHAPE_TOLERANCES = {
       length_to_width: 0.22,
-      jaw_to_forehead: 0.14,
-      cheek_to_jaw: 0.12,
-      jaw_angle_deg: 18
+      jaw_to_forehead: 0.18,
+      cheek_to_jaw: 0.22,
+      jaw_angle_deg: 20
+    };
+
+    const SHAPE_METRIC_WEIGHTS = {
+      square: { jaw_to_forehead: 2, cheek_to_jaw: 2, length_to_width: 1, jaw_angle_deg: 1 },
+      heart: { jaw_to_forehead: 2, cheek_to_jaw: 2, length_to_width: 1, jaw_angle_deg: 1 }
     };
 
     function computeFaceShapeMetrics(landmarks, imageWidth, imageHeight) {
@@ -532,12 +539,17 @@
       const foreheadWidth = landmarkDistance(
         landmarks, LANDMARK_LEFT_TEMPLE, LANDMARK_RIGHT_TEMPLE, imageWidth, imageHeight
       );
-      const jawWidth = landmarkDistance(
-        landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, imageWidth, imageHeight
+      let jawWidth = landmarkDistance(
+        landmarks, LANDMARK_JAW_WIDTH_LEFT, LANDMARK_JAW_WIDTH_RIGHT, imageWidth, imageHeight
       );
+      if (jawWidth === 0) {
+        jawWidth = landmarkDistance(
+          landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, imageWidth, imageHeight
+        );
+      }
 
       if (cheekWidth === 0 || foreheadWidth === 0 || jawWidth === 0) {
-        return { length_to_width: 1.28, jaw_to_forehead: 0.88, cheek_to_jaw: 1.06, jaw_angle_deg: 128 };
+        return { length_to_width: 1.28, jaw_to_forehead: 1.02, cheek_to_jaw: 1.72, jaw_angle_deg: 128 };
       }
 
       const leftJawAngle = angleAtVertex(
@@ -560,14 +572,29 @@
       return Math.max(0, 1 - Math.abs(actual - ideal) / tolerance);
     }
 
+    function resolveHeartSquare(metrics, scores) {
+      if ((scores.heart || 0) < 0.05 && (scores.square || 0) < 0.05) return null;
+      if (Math.abs((scores.heart || 0) - (scores.square || 0)) > 0.10) return null;
+      const jtf = metrics.jaw_to_forehead;
+      const c2j = metrics.cheek_to_jaw;
+      if (jtf >= 0.86 && jtf <= 1.06 && c2j >= 1.78) return "square";
+      if (jtf >= 1.06 && c2j <= 1.82) return "heart";
+      return null;
+    }
+
     function scoreFaceShapes(metrics) {
       const raw = {};
       for (const shape of FACE_SHAPES) {
         const ideals = SHAPE_IDEALS[shape];
-        const parts = Object.keys(SHAPE_TOLERANCES).map(
-          (key) => metricCloseness(metrics[key], ideals[key], SHAPE_TOLERANCES[key])
-        );
-        raw[shape] = parts.reduce((a, b) => a + b, 0) / parts.length;
+        const weights = SHAPE_METRIC_WEIGHTS[shape] || {};
+        let weighted = 0;
+        let weightSum = 0;
+        for (const key of Object.keys(SHAPE_TOLERANCES)) {
+          const w = weights[key] || 1;
+          weighted += w * metricCloseness(metrics[key], ideals[key], SHAPE_TOLERANCES[key]);
+          weightSum += w;
+        }
+        raw[shape] = weighted / Math.max(weightSum, 1);
       }
       const total = Object.values(raw).reduce((a, b) => a + b, 0);
       if (total <= 0) {
@@ -579,7 +606,9 @@
     function classifyFaceShapeDetailed(landmarks, imageWidth, imageHeight) {
       const metrics = computeFaceShapeMetrics(landmarks, imageWidth, imageHeight);
       const scores = scoreFaceShapes(metrics);
-      const shape = FACE_SHAPES.reduce((best, s) => scores[s] > scores[best] ? s : best, FACE_SHAPES[0]);
+      let shape = FACE_SHAPES.reduce((best, s) => scores[s] > scores[best] ? s : best, FACE_SHAPES[0]);
+      const tiebreak = resolveHeartSquare(metrics, scores);
+      if (tiebreak) shape = tiebreak;
       return { shape, confidence: scores[shape], scores, metrics };
     }
 

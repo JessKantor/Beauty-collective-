@@ -18,28 +18,39 @@ LANDMARK_LEFT_CHEEK = 234
 LANDMARK_RIGHT_CHEEK = 454
 LANDMARK_LEFT_TEMPLE = 67
 LANDMARK_RIGHT_TEMPLE = 297
+# Gonial angle points — used only for jaw-corner angle, not width.
 LANDMARK_LEFT_JAW = 172
 LANDMARK_RIGHT_JAW = 397
+# Chin-level jaw width — tracks forehead/jaw balance (heart vs square).
+LANDMARK_JAW_WIDTH_LEFT = 150
+LANDMARK_JAW_WIDTH_RIGHT = 379
 
 FACE_SHAPES = ("oval", "round", "square", "heart", "oblong")
 
 # Ideal metric centroids tuned to cosmetology / wikiHow face-shape diagrams.
 # Metrics: length_to_width, jaw_to_forehead, cheek_to_jaw, jaw_angle_deg
 _SHAPE_IDEALS: dict[str, dict[str, float]] = {
-    "round": {"length_to_width": 1.02, "jaw_to_forehead": 0.96, "cheek_to_jaw": 1.00, "jaw_angle_deg": 135.0},
-    "oval": {"length_to_width": 1.28, "jaw_to_forehead": 0.88, "cheek_to_jaw": 1.06, "jaw_angle_deg": 128.0},
-    "square": {"length_to_width": 1.12, "jaw_to_forehead": 0.97, "cheek_to_jaw": 1.00, "jaw_angle_deg": 112.0},
-    "heart": {"length_to_width": 1.22, "jaw_to_forehead": 0.74, "cheek_to_jaw": 1.14, "jaw_angle_deg": 124.0},
-    "oblong": {"length_to_width": 1.58, "jaw_to_forehead": 0.94, "cheek_to_jaw": 1.02, "jaw_angle_deg": 130.0},
+    "round": {"length_to_width": 1.02, "jaw_to_forehead": 1.05, "cheek_to_jaw": 1.78, "jaw_angle_deg": 135.0},
+    "oval": {"length_to_width": 1.28, "jaw_to_forehead": 1.02, "cheek_to_jaw": 1.72, "jaw_angle_deg": 128.0},
+    "square": {"length_to_width": 1.10, "jaw_to_forehead": 0.95, "cheek_to_jaw": 1.88, "jaw_angle_deg": 130.0},
+    "heart": {"length_to_width": 1.18, "jaw_to_forehead": 1.12, "cheek_to_jaw": 1.68, "jaw_angle_deg": 132.0},
+    "oblong": {"length_to_width": 1.58, "jaw_to_forehead": 1.04, "cheek_to_jaw": 1.75, "jaw_angle_deg": 130.0},
 }
 
 # How far each metric may deviate before its partial score hits zero.
 _SHAPE_TOLERANCES: dict[str, float] = {
     "length_to_width": 0.22,
-    "jaw_to_forehead": 0.14,
-    "cheek_to_jaw": 0.12,
-    "jaw_angle_deg": 18.0,
+    "jaw_to_forehead": 0.18,
+    "cheek_to_jaw": 0.22,
+    "jaw_angle_deg": 20.0,
 }
+
+# Extra weight on width ratios when scoring heart vs square (main confusion pair).
+_SHAPE_METRIC_WEIGHTS: dict[str, dict[str, float]] = {
+    "square": {"jaw_to_forehead": 2.0, "cheek_to_jaw": 2.0, "length_to_width": 1.0, "jaw_angle_deg": 1.0},
+    "heart": {"jaw_to_forehead": 2.0, "cheek_to_jaw": 2.0, "length_to_width": 1.0, "jaw_angle_deg": 1.0},
+}
+_DEFAULT_METRIC_WEIGHT = 1.0
 
 
 def _landmark_distance(
@@ -95,8 +106,16 @@ def compute_face_shape_metrics(
         landmarks, LANDMARK_LEFT_TEMPLE, LANDMARK_RIGHT_TEMPLE, image_width, image_height
     )
     jaw_width = _landmark_distance(
-        landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, image_width, image_height
+        landmarks,
+        LANDMARK_JAW_WIDTH_LEFT,
+        LANDMARK_JAW_WIDTH_RIGHT,
+        image_width,
+        image_height,
     )
+    if jaw_width == 0:
+        jaw_width = _landmark_distance(
+            landmarks, LANDMARK_LEFT_JAW, LANDMARK_RIGHT_JAW, image_width, image_height
+        )
 
     if cheek_width == 0 or forehead_width == 0 or jaw_width == 0:
         return {
@@ -137,16 +156,38 @@ def _metric_closeness(actual: float, ideal: float, tolerance: float) -> float:
     return max(0.0, 1.0 - abs(actual - ideal) / tolerance)
 
 
+def _resolve_heart_square(metrics: dict[str, float], scores: dict[str, float]) -> str | None:
+    """Tie-break heart vs square when normalized scores are ambiguous."""
+    if scores.get("heart", 0) < 0.05 and scores.get("square", 0) < 0.05:
+        return None
+    gap = abs(scores.get("heart", 0) - scores.get("square", 0))
+    if gap > 0.10:
+        return None
+
+    jtf = metrics["jaw_to_forehead"]
+    c2j = metrics["cheek_to_jaw"]
+    # Square: lower face width aligns with forehead; strong cheek–jaw contrast.
+    if 0.86 <= jtf <= 1.06 and c2j >= 1.78:
+        return "square"
+    # Heart: narrower chin vs forehead with softer cheek taper.
+    if jtf >= 1.06 and c2j <= 1.82:
+        return "heart"
+    return None
+
+
 def score_face_shapes(metrics: dict[str, float]) -> dict[str, float]:
     """Score each face shape 0–1 based on proximity to ideal metric profiles."""
     raw_scores: dict[str, float] = {}
     for shape in FACE_SHAPES:
         ideals = _SHAPE_IDEALS[shape]
-        parts = [
-            _metric_closeness(metrics[key], ideals[key], _SHAPE_TOLERANCES[key])
-            for key in _SHAPE_TOLERANCES
-        ]
-        raw_scores[shape] = sum(parts) / len(parts)
+        weights = _SHAPE_METRIC_WEIGHTS.get(shape, {})
+        parts: list[float] = []
+        weight_sum = 0.0
+        for key in _SHAPE_TOLERANCES:
+            w = weights.get(key, _DEFAULT_METRIC_WEIGHT)
+            parts.append(w * _metric_closeness(metrics[key], ideals[key], _SHAPE_TOLERANCES[key]))
+            weight_sum += w
+        raw_scores[shape] = sum(parts) / max(weight_sum, 1.0)
 
     total = sum(raw_scores.values())
     if total <= 0:
@@ -165,6 +206,9 @@ def classify_face_shape_detailed(
     metrics = compute_face_shape_metrics(landmarks, image_width, image_height)
     scores = score_face_shapes(metrics)
     best_shape = max(scores, key=scores.get)
+    tiebreak = _resolve_heart_square(metrics, scores)
+    if tiebreak is not None:
+        best_shape = tiebreak
     return best_shape, scores[best_shape], scores, metrics
 
 

@@ -33,7 +33,7 @@ MODEL_PATH = Path("face_landmarker.task")
 
 # Landmarks needed by build_database.classify_face_shape
 LANDMARK_INDICES = (
-    10, 152, 234, 454, 67, 297, 172, 397,
+    10, 152, 234, 454, 67, 297, 150, 379, 172, 397,
 )
 
 
